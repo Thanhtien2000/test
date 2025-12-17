@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'echo Hello Jenkins from Docker'
+        echo 'Jenkins echo'
+        sh 'echo Shell echo'
       }
     }
   }
